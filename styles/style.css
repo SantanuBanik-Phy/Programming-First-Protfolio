@@ -86,7 +86,7 @@ border: none;
     font-weight: 400;
 }
 .banner-profile-pic{
-    width: 584px;
+    width: 585px;
 }
 .section-title{
     color: rgb(24, 24, 24);
@@ -121,7 +121,7 @@ main section{
     margin-bottom: 130px;
 }
 main{
-    max-width: 1140px;
+    max-width: 1145px;
     margin: 0 auto;
 }
 .item-description{
@@ -206,3 +206,34 @@ font-weight: 700;
 .text-center{
     text-align: center;
 }
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"],footer input[type="email"]{
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 24px;
+    border: none;
+
+}
+footer textarea{
+    height: 90px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 24px;
+    border: none;   
+}
+
